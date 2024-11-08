@@ -1,0 +1,2252 @@
+[
+  {
+    "identifier": "accessibility_label_for_image",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "accessibility_trait_for_button",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "anonymous_argument_in_multiline_closure",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "anyobject_protocol",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "array_init",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "attributes",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, always_on_same_line: [\"@IBAction\", \"@NSManaged\"], always_on_line_above: []"
+  },
+  {
+    "identifier": "balanced_xctest_lifecycle",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, test_parent_classes: [\"QuickSpec\", \"XCTestCase\"]"
+  },
+  {
+    "identifier": "blanket_disable_command",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, allowed_rules: [\"file_header\", \"file_length\", \"file_name\", \"file_name_no_space\", \"single_test_class\"], always_blanket_disable: []"
+  },
+  {
+    "identifier": "block_based_kvo",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "capture_variable",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "yes",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "class_delegate_protocol",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "closing_brace",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "closure_body_length",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning: 30, error: 100"
+  },
+  {
+    "identifier": "closure_end_indentation",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "closure_parameter_position",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "closure_spacing",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "collection_alignment",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, align_colons: false"
+  },
+  {
+    "identifier": "colon",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, flexible_right_spacing: false, apply_to_dictionaries: true"
+  },
+  {
+    "identifier": "comma",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "comma_inheritance",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "comment_spacing",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "compiler_protocol_init",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "computed_accessors_order",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, order: get_set"
+  },
+  {
+    "identifier": "conditional_returns_on_newline",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, if_only: false"
+  },
+  {
+    "identifier": "contains_over_filter_count",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "contains_over_filter_is_empty",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "contains_over_first_not_nil",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "contains_over_range_nil_comparison",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "control_statement",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "convenience_type",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "custom_rules",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "user-defined"
+  },
+  {
+    "identifier": "cyclomatic_complexity",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning: 10, error: 20, ignores_case_statements: false"
+  },
+  {
+    "identifier": "deployment_target",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, iOSApplicationExtension_deployment_target: 7.0, iOS_deployment_target: 7.0, macOSApplicationExtension_deployment_target: 10.9, macOS_deployment_target: 10.9, tvOSApplicationExtension_deployment_target: 9.0, tvOS_deployment_target: 9.0, watchOSApplicationExtension_deployment_target: 1.0, watchOS_deployment_target: 1.0"
+  },
+  {
+    "identifier": "direct_return",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "discarded_notification_center_observer",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "discouraged_assert",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "discouraged_direct_init",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, types: [\"Bundle\", \"Bundle.init\", \"NSError\", \"NSError.init\", \"UIDevice\", \"UIDevice.init\"]"
+  },
+  {
+    "identifier": "discouraged_none_name",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "discouraged_object_literal",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, image_literal: true, color_literal: true"
+  },
+  {
+    "identifier": "discouraged_optional_boolean",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "discouraged_optional_collection",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "duplicate_conditions",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "error"
+  },
+  {
+    "identifier": "duplicate_enum_cases",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "error"
+  },
+  {
+    "identifier": "duplicate_imports",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "duplicated_key_in_dictionary_literal",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "dynamic_inline",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "error"
+  },
+  {
+    "identifier": "empty_collection_literal",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "empty_count",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: error, only_after_dot: false"
+  },
+  {
+    "identifier": "empty_enum_arguments",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "empty_parameters",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "empty_parentheses_with_trailing_closure",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "empty_string",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "empty_xctest_method",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, test_parent_classes: [\"QuickSpec\", \"XCTestCase\"]"
+  },
+  {
+    "identifier": "enum_case_associated_values_count",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning: 5, error: 6"
+  },
+  {
+    "identifier": "expiring_todo",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "approaching_expiry_severity: warning, expired_severity: error, bad_formatting_severity: error, approaching_expiry_threshold: 15, date_format: MM/dd/yyyy, date_delimiters: { opening: [, closing: ] }, date_separator: /"
+  },
+  {
+    "identifier": "explicit_acl",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "explicit_enum_raw_value",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "explicit_init",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "explicit_self",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "yes",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "explicit_top_level_acl",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "explicit_type_interface",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, excluded: [], allow_redundancy: false"
+  },
+  {
+    "identifier": "extension_access_modifier",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "fallthrough",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "fatal_error_message",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "file_header",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, required_string: None, required_pattern: None, forbidden_string: None, forbidden_pattern: None"
+  },
+  {
+    "identifier": "file_length",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning: 400, error: 1000, ignore_comment_only_lines: false"
+  },
+  {
+    "identifier": "file_name",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "(severity) warning, excluded: [\"LinuxMain.swift\", \"main.swift\"], prefix_pattern: , suffix_pattern: \\+.*, nested_type_separator: ."
+  },
+  {
+    "identifier": "file_name_no_space",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "(severity) warning, excluded: []"
+  },
+  {
+    "identifier": "file_types_order",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, order: [[SwiftLintFramework.FileType.supportingType], [SwiftLintFramework.FileType.mainType], [SwiftLintFramework.FileType.extension], [SwiftLintFramework.FileType.previewProvider], [SwiftLintFramework.FileType.libraryContentProvider]]"
+  },
+  {
+    "identifier": "first_where",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "flatmap_over_map_reduce",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "for_where",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, allow_for_as_filter: false"
+  },
+  {
+    "identifier": "force_cast",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "error"
+  },
+  {
+    "identifier": "force_try",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "error"
+  },
+  {
+    "identifier": "force_unwrapping",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "function_body_length",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning: 50, error: 100"
+  },
+  {
+    "identifier": "function_default_parameter_at_end",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "function_parameter_count",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning: 5, error: 8, ignores_default_parameters: true"
+  },
+  {
+    "identifier": "generic_type_name",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "(min_length) w/e: 1/0, (max_length) w/e: 20/1000, excluded: [], allowed_symbols: [], validates_start_with_lowercase: true"
+  },
+  {
+    "identifier": "ibinspectable_in_extension",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "identical_operands",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "identifier_name",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "(min_length) w/e: 3/2, (max_length) w/e: 40/60, excluded: [\"^id$\"], allowed_symbols: [], validates_start_with_lowercase: true"
+  },
+  {
+    "identifier": "implicit_getter",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "implicit_return",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, included: [closure, function, getter]"
+  },
+  {
+    "identifier": "implicitly_unwrapped_optional",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, mode: all_except_iboutlets"
+  },
+  {
+    "identifier": "inclusive_language",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, additional_terms: [], override_terms: [], override_allowed_terms: []"
+  },
+  {
+    "identifier": "indentation_width",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: severity: warning, indentation_width: 4, include_comments: true, include_compiler_directives: trueinclude_multiline_strings: true"
+  },
+  {
+    "identifier": "inert_defer",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "invalid_swiftlint_command",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "is_disjoint",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "joined_default_parameter",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "large_tuple",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning: 2, error: 3"
+  },
+  {
+    "identifier": "last_where",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "leading_whitespace",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "legacy_cggeometry_functions",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "legacy_constant",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "legacy_constructor",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "legacy_hashing",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "legacy_multiple",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "legacy_nsgeometry_functions",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "legacy_objc_type",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "legacy_random",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "let_var_whitespace",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "line_length",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning: 120, error: 200, ignores_urls: false, ignores_function_declarations: false, ignores_comments: false, ignores_interpolated_strings: false"
+  },
+  {
+    "identifier": "literal_expression_end_indentation",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "local_doc_comment",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "lower_acl_than_parent",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "mark",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "missing_docs",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning: open, public, excludes_extensions: true, excludes_inherited_types: true, excludes_trivial_init: false"
+  },
+  {
+    "identifier": "modifier_order",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, preferred_modifier_order: [override, acl, setterACL, dynamic, mutators, lazy, final, required, convenience, typeMethods, owned]"
+  },
+  {
+    "identifier": "multiline_arguments",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, first_argument_location: any_line, only_enforce_after_first_closure_on_first_line: false"
+  },
+  {
+    "identifier": "multiline_arguments_brackets",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "multiline_function_chains",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "multiline_literal_brackets",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "multiline_parameters",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, allowsSingleLine: true"
+  },
+  {
+    "identifier": "multiline_parameters_brackets",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "multiple_closures_with_trailing_closure",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "nesting",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "(type_level) w: 1, (function_level) w: 2, (check_nesting_in_closures_and_statements) true, (always_allow_one_type_in_functions) false"
+  },
+  {
+    "identifier": "nimble_operator",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "no_extension_access_modifier",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "error"
+  },
+  {
+    "identifier": "no_fallthrough_only",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "no_grouping_extension",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "no_magic_numbers",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "no_space_in_method_call",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "notification_center_detachment",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "ns_number_init_as_function_reference",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "nslocalizedstring_key",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "nslocalizedstring_require_bundle",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "nsobject_prefer_isequal",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "number_separator",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, minimum_length: 0, minimum_fraction_length: none"
+  },
+  {
+    "identifier": "object_literal",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, image_literal: true, color_literal: true"
+  },
+  {
+    "identifier": "opening_brace",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, allowMultilineFunc: false"
+  },
+  {
+    "identifier": "operator_usage_whitespace",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, lines_look_around: 2, skip_aligned_constants: true, allowed_no_space_operators: [\"...\", \"..<\"]"
+  },
+  {
+    "identifier": "operator_whitespace",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "optional_enum_case_matching",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "orphaned_doc_comment",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "overridden_super_call",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, excluded: [], included: [\"*\"]"
+  },
+  {
+    "identifier": "override_in_extension",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "pattern_matching_keywords",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "period_spacing",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "prefer_nimble",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "prefer_self_in_static_references",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "prefer_self_type_over_type_of_self",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "prefer_zero_over_explicit_init",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "prefixed_toplevel_constant",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, only_private: false"
+  },
+  {
+    "identifier": "private_action",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "private_outlet",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, allow_private_set: false"
+  },
+  {
+    "identifier": "private_over_fileprivate",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, validate_extensions: false"
+  },
+  {
+    "identifier": "private_subject",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "private_unit_test",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning: XCTestCase"
+  },
+  {
+    "identifier": "prohibited_interface_builder",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "prohibited_super_call",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, excluded: [[]], included: [[\"*\"]]"
+  },
+  {
+    "identifier": "protocol_property_accessors_order",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "quick_discouraged_call",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "quick_discouraged_focused_test",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "quick_discouraged_pending_test",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "raw_value_for_camel_cased_codable_enum",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "reduce_boolean",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "reduce_into",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "redundant_discardable_let",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "redundant_nil_coalescing",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "redundant_objc_attribute",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "redundant_optional_initialization",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "redundant_set_access_control",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "redundant_string_enum_value",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "redundant_type_annotation",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "redundant_void_return",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "required_deinit",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "required_enum_case",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "No protocols configured.In config add 'required_enum_case' to 'opt_in_rules' and config using :\\n\\n'required_enum_case:\\n{Protocol Name}:\\n{Case Name}:{warning"
+  },
+  {
+    "identifier": "return_arrow_whitespace",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "return_value_from_void_function",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "self_binding",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, bindIdentifier: self"
+  },
+  {
+    "identifier": "self_in_property_initialization",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "shorthand_operator",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "error"
+  },
+  {
+    "identifier": "shorthand_optional_binding",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "single_test_class",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, test_parent_classes: [\"QuickSpec\", \"XCTestCase\"]"
+  },
+  {
+    "identifier": "sorted_first_last",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "performance",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "sorted_imports",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "statement_position",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "(statement_mode) default, (severity) warning"
+  },
+  {
+    "identifier": "static_operator",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "strict_fileprivate",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "strong_iboutlet",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "superfluous_disable_command",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "switch_case_alignment",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, indented_cases: false"
+  },
+  {
+    "identifier": "switch_case_on_newline",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "syntactic_sugar",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "test_case_accessibility",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, allowed_prefixes: [], test_parent_classes: [\"QuickSpec\", \"XCTestCase\"]"
+  },
+  {
+    "identifier": "todo",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "toggle_bool",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "trailing_closure",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, only_single_muted_parameter: false"
+  },
+  {
+    "identifier": "trailing_comma",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, mandatory_comma: false"
+  },
+  {
+    "identifier": "trailing_newline",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "trailing_semicolon",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "trailing_whitespace",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, ignores_empty_lines: false, ignores_comments: true"
+  },
+  {
+    "identifier": "type_body_length",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "metrics",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning: 250, error: 350"
+  },
+  {
+    "identifier": "type_contents_order",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, order: [[SwiftLintFramework.TypeContent.case], [SwiftLintFramework.TypeContent.typeAlias, SwiftLintFramework.TypeContent.associatedType], [SwiftLintFramework.TypeContent.subtype], [SwiftLintFramework.TypeContent.typeProperty], [SwiftLintFramework.TypeContent.instanceProperty], [SwiftLintFramework.TypeContent.ibInspectable], [SwiftLintFramework.TypeContent.ibOutlet], [SwiftLintFramework.TypeContent.initializer], [SwiftLintFramework.TypeContent.typeMethod], [SwiftLintFramework.TypeContent.viewLifeCycleMethod], [SwiftLintFramework.TypeContent.ibAction], [SwiftLintFramework.TypeContent.otherMethod], [SwiftLintFramework.TypeContent.subscript], [SwiftLintFramework.TypeContent.deinitializer]]"
+  },
+  {
+    "identifier": "type_name",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "(min_length) w/e: 3/0, (max_length) w/e: 40/1000, excluded: [], allowed_symbols: [], validates_start_with_lowercase: true, validate_protocols: true"
+  },
+  {
+    "identifier": "typesafe_array_init",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "yes",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unavailable_condition",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unavailable_function",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unneeded_break_in_switch",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unneeded_parentheses_in_closure_argument",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unowned_variable_capture",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "untyped_error_in_catch",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unused_capture_list",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unused_closure_parameter",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unused_control_flow_label",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unused_declaration",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "yes",
+    "uses sourcekit": "yes",
+    "configuration": "severity: error, include_public_and_open: false, related_usrs_to_skip: [\"s:7SwiftUI15PreviewProviderP\"]"
+  },
+  {
+    "identifier": "unused_enumerated",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "unused_import",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "yes",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, require_explicit_imports: false, allowed_transitive_imports: [], always_keep_imports: []"
+  },
+  {
+    "identifier": "unused_optional_binding",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "severity: warning, ignore_optional_try: false"
+  },
+  {
+    "identifier": "unused_setter_value",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "valid_ibinspectable",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "vertical_parameter_alignment",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "vertical_parameter_alignment_on_call",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "vertical_whitespace",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, max_empty_lines: 1"
+  },
+  {
+    "identifier": "vertical_whitespace_between_cases",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "vertical_whitespace_closing_braces",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "severity: warning, only_enforce_before_trivial_lines: false"
+  },
+  {
+    "identifier": "vertical_whitespace_opening_braces",
+    "opt-in": "yes",
+    "correctable": "yes",
+    "enabled in your config": "no",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "void_function_in_ternary",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "void_return",
+    "opt-in": "no",
+    "correctable": "yes",
+    "enabled in your config": "yes",
+    "kind": "style",
+    "analyzer": "no",
+    "uses sourcekit": "yes",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "weak_delegate",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "xct_specific_matcher",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "xctfail_message",
+    "opt-in": "no",
+    "correctable": "no",
+    "enabled in your config": "yes",
+    "kind": "idiomatic",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  },
+  {
+    "identifier": "yoda_condition",
+    "opt-in": "yes",
+    "correctable": "no",
+    "enabled in your config": "no",
+    "kind": "lint",
+    "analyzer": "no",
+    "uses sourcekit": "no",
+    "configuration": "warning"
+  }
+]

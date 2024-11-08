@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "accessibility_label_for_image",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "accessibility_trait_for_button",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "anonymous_argument_in_multiline_closure",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "anyobject_protocol",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "array_init",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "attributes",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "balanced_xctest_lifecycle",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "blanket_disable_command",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "block_based_kvo",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "capture_variable",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "class_delegate_protocol",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "closing_brace",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "closure_body_length",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "closure_end_indentation",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "closure_parameter_position",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "closure_spacing",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "collection_alignment",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "colon",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "comma",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "comma_inheritance",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "comment_spacing",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "compiler_protocol_init",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "computed_accessors_order",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "conditional_returns_on_newline",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "contains_over_filter_count",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "contains_over_filter_is_empty",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "contains_over_first_not_nil",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "contains_over_range_nil_comparison",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "control_statement",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "convenience_type",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "custom_rules",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "cyclomatic_complexity",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "deployment_target",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "direct_return",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "discarded_notification_center_observer",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "discouraged_assert",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "discouraged_direct_init",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "discouraged_none_name",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "discouraged_object_literal",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "discouraged_optional_boolean",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "discouraged_optional_collection",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "duplicate_conditions",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "duplicate_enum_cases",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "duplicate_imports",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "duplicated_key_in_dictionary_literal",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "dynamic_inline",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "empty_collection_literal",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "empty_count",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "empty_enum_arguments",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "empty_parameters",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "empty_parentheses_with_trailing_closure",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "empty_string",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "empty_xctest_method",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "enum_case_associated_values_count",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "expiring_todo",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "explicit_acl",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "explicit_enum_raw_value",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "explicit_init",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "explicit_self",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "explicit_top_level_acl",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "explicit_type_interface",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "extension_access_modifier",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "fallthrough",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "fatal_error_message",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "file_header",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "file_length",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "file_name",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "file_name_no_space",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "file_types_order",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "first_where",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "flatmap_over_map_reduce",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "for_where",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "force_cast",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "force_try",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "force_unwrapping",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "function_body_length",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "function_default_parameter_at_end",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "function_parameter_count",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "generic_type_name",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "ibinspectable_in_extension",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "identical_operands",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "id_name",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "implicit_getter",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "implicit_return",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "implicitly_unwrapped_optional",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "inclusive_language",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "indentation_width",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "inert_defer",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "invalid_swiftlint_command",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "is_disjoint",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "joined_default_parameter",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "large_tuple",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "last_where",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "leading_whitespace",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "legacy_cggeometry_functions",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "legacy_constant",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "legacy_constructor",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "legacy_hashing",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "legacy_multiple",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "legacy_nsgeometry_functions",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "legacy_objc_type",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "legacy_random",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "let_var_whitespace",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "line_length",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "literal_expression_end_indentation",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "local_doc_comment",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "lower_acl_than_parent",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "mark",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "missing_docs",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "modifier_order",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "multiline_arguments",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "multiline_arguments_brackets",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "multiline_function_chains",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "multiline_literal_brackets",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "multiline_parameters",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "multiline_parameters_brackets",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "multiple_closures_with_trailing_closure",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "nesting",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "nimble_operator",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "no_extension_access_modifier",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "no_fallthrough_only",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "no_grouping_extension",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "no_magic_numbers",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "no_space_in_method_call",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "notification_center_detachment",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "ns_number_init_as_function_reference",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "nslocalizedstring_key",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "nslocalizedstring_require_bundle",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "nsobject_prefer_isequal",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "number_separator",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "object_literal",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "opening_brace",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "operator_usage_whitespace",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "operator_whitespace",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "optional_enum_case_matching",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "orphaned_doc_comment",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "overridden_super_call",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "override_in_extension",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "pattern_matching_keywords",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "period_spacing",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "prefer_nimble",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "prefer_self_in_static_references",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "prefer_self_type_over_type_of_self",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "prefer_zero_over_explicit_init",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "prefixed_toplevel_constant",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "private_action",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "private_outlet",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "private_over_fileprivate",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "private_subject",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "private_unit_test",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "prohibited_interface_builder",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "prohibited_super_call",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "protocol_property_accessors_order",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "quick_discouraged_call",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "quick_discouraged_focused_test",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "quick_discouraged_pending_test",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "raw_value_for_camel_cased_codable_enum",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "reduce_boolean",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "reduce_into",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "redundant_discardable_let",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "redundant_nil_coalescing",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "redundant_objc_attribute",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "redundant_optional_initialization",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "redundant_set_access_control",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "redundant_string_enum_value",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "redundant_type_annotation",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "redundant_void_return",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "required_deinit",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "required_enum_case",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "return_arrow_whitespace",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "return_value_from_void_function",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "self_binding",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "self_in_property_initialization",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "shorthand_operator",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "shorthand_optional_binding",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "single_test_class",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "sorted_first_last",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "sorted_imports",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "statement_position",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "static_operator",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "strict_fileprivate",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "strong_iboutlet",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "superfluous_disable_command",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "switch_case_alignment",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "switch_case_on_newline",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "syntactic_sugar",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "test_case_accessibility",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "todo",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "toggle_bool",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "trailing_closure",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "trailing_comma",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "trailing_newline",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "trailing_semicolon",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "trailing_whitespace",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "type_body_length",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "type_contents_order",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "type_name",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "typesafe_array_init",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unavailable_condition",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unavailable_function",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unneeded_break_in_switch",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unneeded_parentheses_in_closure_argument",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unowned_variable_capture",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "untyped_error_in_catch",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unused_capture_list",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unused_closure_parameter",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unused_control_flow_label",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unused_declaration",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unused_enumerated",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unused_import",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unused_optional_binding",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "unused_setter_value",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "valid_ibinspectable",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "vertical_parameter_alignment",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "vertical_parameter_alignment_on_call",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "vertical_whitespace",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "vertical_whitespace_between_cases",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "vertical_whitespace_closing_braces",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "vertical_whitespace_opening_braces",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "void_function_in_ternary",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "void_return",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "weak_delegate",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "xct_specific_matcher",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "xctfail_message",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  },
+  {
+    "id": "yoda_condition",
+    "name": "Accessibility Label for Image",
+    "engineId": "swiftlint",
+    "cleanCodeAttribute": "FORMATTED",
+    "impacts": [
+        {
+            "softwareQuality": "MAINTAINABILITY",
+            "severity": "HIGH"
+        },
+        {
+            "softwareQuality": "SECURITY",
+            "severity": "LOW"
+        },
+        {
+            "softwareQuality": "RELIABILITY",
+            "severity": "LOW"
+        }
+    ]
+  }
+]

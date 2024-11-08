@@ -1,0 +1,20 @@
+[
+  {
+    "character" : null,
+    "file" : "\/Users\/myuser\/SonarSwiftSample\/SonarSwiftSampleTests\/SonarSwiftSampleTests.swift",
+    "line" : 20,
+    "reason" : "Lines should not have trailing whitespace",
+    "rule_id" : "trailing_whitespace",
+    "severity" : "Warning",
+    "type" : "Trailing Whitespace"
+  },
+  {
+    "character" : null,
+    "file" : "\/Users\/myuser\/SonarSwiftSample\/SonarSwiftSampleTests\/SonarSwiftSampleTests.swift",
+    "line" : 23,
+    "reason" : "Lines should not have trailing whitespace",
+    "rule_id" : "trailing_whitespace",
+    "severity" : "Warning",
+    "type" : "Trailing Whitespace"
+  }
+]
