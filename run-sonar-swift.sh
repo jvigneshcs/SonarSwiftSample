@@ -269,6 +269,234 @@ if [ "$vflag" = "" -a "$nflag" = "" ]; then
 	PROGRESS_PID=$!
 fi
 
+# Create sonar-reports/ for reports output
+if [ "$vflag" = "on" ]; then
+    echo 'Creating directory sonar-reports/'
+fi
+rm -rf sonar-reports
+mkdir sonar-reports
+
+# Extracting project information needed later
+echo -n 'Extracting Xcode project information'
+if [[ "$workspaceFile" != "" ]] ; then
+    buildCmdPrefix="-workspace $workspaceFile"
+else
+    buildCmdPrefix="-project $projectFile"
+fi
+buildCmd=($XCODEBUILD_CMD clean build $buildCmdPrefix -scheme $appScheme)
+if [[ ! -z "$destinationSimulator" ]]; then
+    buildCmd+=(-destination "$destinationSimulator" -destination-timeout 360 COMPILER_INDEX_STORE_ENABLE=NO)
+fi
+runCommand  xcodebuild.log "${buildCmd[@]}"
+#oclint-xcodebuild # Transform the xcodebuild.log file into a compile_command.json file
+cat xcodebuild.log | $XCPRETTY_CMD -r json-compilation-database -o compile_commands.json
+
+# Objective-C code detection
+hasObjC="no"
+compileCmdFile=compile_commands.json
+minimumSize=3
+actualSize=$(stat -f%z "$compileCmdFile")
+echo "actual = $actualSize, min = $minimumSize"
+if [ $actualSize -ge $minimumSize ]; then
+    hasObjC="yes"
+fi
+
+# Unit surefire and coverage
+if [ "$unittests" = "on" ]; then
+
+    # Put default xml files with no surefire and no coverage...
+    echo "<?xml version='1.0' encoding='UTF-8' standalone='yes'?><testsuites name='AllTestUnits'></testsuites>" > sonar-reports/TEST-report.xml
+    echo "<?xml version='1.0' ?><!DOCTYPE coverage SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-03.dtd'><coverage><sources></sources><packages></packages></coverage>" > coverage-swift.xml
+
+    echo -n 'Running surefire'
+    buildCmd=($XCODEBUILD_CMD clean build test)
+    if [[ ! -z "$workspaceFile" ]]; then
+        buildCmd+=(-workspace "$workspaceFile")
+    elif [[ ! -z "$projectFile" ]]; then
+	      buildCmd+=(-project "$projectFile")
+    fi
+    buildCmd+=( -scheme "$appScheme" -configuration "$appConfiguration" -enableCodeCoverage YES)
+    if [[ ! -z "$destinationSimulator" ]]; then
+        buildCmd+=(-destination "$destinationSimulator" -destination-timeout 60)
+    fi
+
+    runCommand  sonar-reports/xcodebuild.log "${buildCmd[@]}"
+    cat sonar-reports/xcodebuild.log  | $XCPRETTY_CMD -t --report junit
+    mv build/reports/junit.xml sonar-reports/TEST-report.xml
+
+
+    echo '\nComputing coverage report\n'
+
+    # Build the --exclude flags
+    excludedCommandLineFlags=""
+    if [ ! -z "$excludedPathsFromCoverage" -a "$excludedPathsFromCoverage" != " " ]; then
+	      echo $excludedPathsFromCoverage | sed -n 1'p' | tr ',' '\n' > tmpFileRunSonarSh2
+	      while read word; do
+		        excludedCommandLineFlags+=" -i $word"
+	      done < tmpFileRunSonarSh2
+	      rm -rf tmpFileRunSonarSh2
+    fi
+    if [ "$vflag" = "on" ]; then
+	      echo "Command line exclusion flags for slather is:$excludedCommandLineFlags"
+    fi
+
+	firstProject=$(echo $projectFile | sed -n 1'p' | tr ',' '\n' | head -n 1)
+
+    slatherCmd=($SLATHER_CMD coverage)
+    if [[ ! -z "$binaryName" ]]; then
+    	slatherCmd+=( --binary-basename "$binaryName")
+    fi
+
+    slatherCmd+=( --input-format profdata $excludedCommandLineFlags --sonarqube-xml --output-directory sonar-reports)
+
+    if [[ ! -z "$workspaceFile" ]]; then
+        slatherCmd+=( --workspace "$workspaceFile")
+    fi
+    slatherCmd+=( --scheme "$appScheme" "$firstProject")
+
+    echo "${slatherCmd[@]}"
+
+    runCommand /dev/stdout "${slatherCmd[@]}"
+    mv sonar-reports/sonarqube-generic-coverage.xml coverage-swift.xml
+fi
+
+# SwiftLint
+if [ "$swiftlint" = "on" ]; then
+	if hash $SWIFTLINT_CMD 2>/dev/null; then
+		echo -n 'Running SwiftLint...'
+
+		# Build the --include flags
+		currentDirectory=${PWD##*/}
+		echo "$srcDirs" | sed -n 1'p' | tr ',' '\n' > tmpFileRunSonarSh
+		while read word; do
+
+			# Run SwiftLint command
+		    $SWIFTLINT_CMD lint --reporter json "$word" > sonar-reports/"$appScheme"-swiftlint.json
+
+		done < tmpFileRunSonarSh
+		rm -rf tmpFileRunSonarSh
+	else
+		echo "Skipping SwiftLint (not installed!)"
+	fi
+
+else
+	echo 'Skipping SwiftLint (test purposes only!)'
+fi
+
+# Tailor
+if [ "$tailor" = "on" ]; then
+	if hash $TAILOR_CMD 2>/dev/null; then
+		echo -n 'Running Tailor...'
+
+		# Build the --include flags
+		currentDirectory=${PWD##*/}
+		echo "$srcDirs" | sed -n 1'p' | tr ',' '\n' > tmpFileRunSonarSh
+		while read word; do
+
+			  # Run tailor command
+		    $TAILOR_CMD $tailorConfiguration "$word" > sonar-reports/"$appScheme"-tailor.txt
+
+		done < tmpFileRunSonarSh
+		rm -rf tmpFileRunSonarSh
+	else
+		echo "Skipping Tailor (not installed!)"
+	fi
+
+else
+	echo 'Skipping Tailor!'
+fi
+
+if [ "$oclint" = "on" ] && [ "$hasObjC" = "yes" ]; then
+
+	echo -n 'Running OCLint...'
+
+	# Options
+	maxPriority=10000
+    longLineThreshold=250
+
+	# Build the --include flags
+	currentDirectory=${PWD##*/}
+	echo "$srcDirs" | sed -n 1'p' | tr ',' '\n' > tmpFileRunSonarSh
+	while read word; do
+
+		includedCommandLineFlags=" --include .*/${currentDirectory}/${word}/*"
+		if [ "$vflag" = "on" ]; then
+            echo
+            echo -n "Path included in oclint analysis is:$includedCommandLineFlags"
+        fi
+		# Run OCLint with the right set of compiler options
+	    runCommand no oclint-json-compilation-database -v $includedCommandLineFlags -- -rc LONG_LINE=$longLineThreshold -max-priority-1 $maxPriority -max-priority-2 $maxPriority -max-priority-3 $maxPriority -report-type pmd -o sonar-reports/$appScheme-oclint.xml
+
+	done < tmpFileRunSonarSh
+	rm -rf tmpFileRunSonarSh
+
+
+else
+	echo 'Skipping OCLint (test purposes only!)'
+fi
+
+#FauxPas
+if [ "$fauxpas" = "on" ] && [ "$hasObjC" = "yes" ]; then
+    hash fauxpas 2>/dev/null
+    if [ $? -eq 0 ]; then
+
+        echo -n 'Running FauxPas...'
+
+        if [ "$projectCount" = "1" ]
+        then
+
+            fauxpas -o json check $projectFile --workspace $workspaceFile --scheme $appScheme > sonar-reports/fauxpas.json
+
+
+        else
+
+            echo $projectFile | sed -n 1'p' | tr ',' '\n' > tmpFileRunSonarSh
+            while read projectName; do
+
+                $XCODEBUILD_CMD -list -project $projectName | sed -n '/Schemes/,$p' | while read scheme
+                do
+
+                if [ "$scheme" = "" ]
+                then
+                exit
+                fi
+
+                if [ "$scheme" == "${scheme/Schemes/}" ]
+                then
+                    if [ "$scheme" != "$testScheme" ]
+                    then
+                        projectBaseDir=$(dirname $projectName)
+                        workspaceRelativePath=$(python -c "import os.path; print os.path.relpath('$workspaceFile', '$projectBaseDir')")
+                        fauxpas -o json check $projectName --workspace $workspaceRelativePath --scheme $scheme > sonar-reports/$(basename $projectName .xcodeproj)-$scheme-fauxpas.json
+                    fi
+                fi
+
+                done
+
+            done < tmpFileRunSonarSh
+            rm -rf tmpFileRunSonarSh
+
+	    fi
+
+    else
+        echo 'Skipping FauxPas (not installed)'
+    fi
+else
+    echo 'Skipping FauxPas'
+fi
+
+# Lizard Complexity
+if [ "$lizard" = "on" ]; then
+	if hash $LIZARD_CMD 2>/dev/null; then
+		echo -n 'Running Lizard...'
+  		$LIZARD_CMD --xml "$srcDirs" > sonar-reports/lizard-report.xml
+  	else
+  		echo 'Skipping Lizard (not installed!)'
+  	fi
+else
+ 	echo 'Skipping Lizard (test purposes only!)'
+fi
+
 # The project version from properties file
 numVersionSonarRunner=''; readParameter numVersionSonarRunner 'sonar.projectVersion'
 if [ -z "$numVersionSonarRunner" -o "$numVersionSonarRunner" = " " ]; then
